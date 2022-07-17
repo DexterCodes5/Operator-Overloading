@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     cout << boolalpha << endl;
-    Mystring a {"frank"};
-    Mystring b {"frank"};
+    Mystring a {"dexter"};
+    Mystring b {"dexter"};
 
     cout << (a==b) << endl;         // true
     cout << (a!=b) << endl;          // false
@@ -17,7 +17,7 @@ int main() {
      cout << (a<b) << endl;          // true
     cout << (a>b) << endl;           // false
     
-    Mystring s1 {"FRANK"};
+    Mystring s1 {"DEXTER"};
     s1 = -s1;       
     cout << s1 << endl;               // frank              
 
@@ -35,7 +35,7 @@ int main() {
     s3 *= 5;
     cout << s3 << endl;             // abcdefabcdefabcdefabcdefabcdef
     
-    Mystring s = "Frank";
+    Mystring s = "Dexter";
     ++s;
     cout << s << endl;                  // FRANK
     
@@ -47,7 +47,7 @@ int main() {
     cout << s << endl;                  // FRANK
     cout << result << endl;           // FRANK
     
-    s = "Frank";
+    s = "Dexter";
     s++;
     cout << s << endl;                  // FRANK
     
