@@ -19,12 +19,12 @@ int main() {
     
     Mystring s1 {"DEXTER"};
     s1 = -s1;       
-    cout << s1 << endl;               // frank              
+    cout << s1 << endl;               // dexter              
 
     s1 = s1 + "*****";
-    cout << s1 << endl;               // frank*****       
+    cout << s1 << endl;               // dexter*****       
     
-    s1 += "-----";                        // frank*****-----
+    s1 += "-----";                        // dexter*****-----
     cout << s1 << endl;
     
     Mystring s2{"12345"};
@@ -37,25 +37,25 @@ int main() {
     
     Mystring s = "Dexter";
     ++s;
-    cout << s << endl;                  // FRANK
+    cout << s << endl;                  // DEXTER
     
     s = -s; 
-    cout << s << endl;                  // frank
+    cout << s << endl;                  // dexter
     
     Mystring result;
     result = ++s;                           
-    cout << s << endl;                  // FRANK
-    cout << result << endl;           // FRANK
+    cout << s << endl;                  // DEXTER
+    cout << result << endl;           // DEXTER
     
     s = "Dexter";
     s++;
-    cout << s << endl;                  // FRANK
+    cout << s << endl;                  // DEXTER
     
     s = -s;
-    cout << s << endl;                  // frank
+    cout << s << endl;                  // dexter
     result = s++;
-    cout << s << endl;                  // FRANK
-    cout << result << endl;           // frank
+    cout << s << endl;                  // DEXTER
+    cout << result << endl;           // dexter
     
     
     return 0;
